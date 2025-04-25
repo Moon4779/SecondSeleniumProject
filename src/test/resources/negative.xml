@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Negative" verbose="1">
+    <test name="Negative">
+        <classes>
+            <class name="com.ait.qa55.MainPageTests"/>
+            <class name="com.ait.qa55.LogInNegativeTests">
+                <methods>
+                    <include name=".*Negative.*">
+                    </include>
+                </methods>
+            </class>
+            <class name="com.ait.qa55.MainPageTests"/>
+            <class name="com.ait.qa55.LogInNegativeTests">
+                <methods>
+                    <include name=".*Negative.*">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
